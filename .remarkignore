@@ -1,7 +1,0 @@
-.circleci/*
-node_modules/*
-CHANGELOG.md
-logs
-*.log
-package-lock.json
-*.yml

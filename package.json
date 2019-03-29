@@ -10,14 +10,11 @@
     "babel-eslint": "8.2.5",
     "eslint": "4.19.1",
     "eslint-plugin-json": "^1.4.0",
-    "eslint-plugin-prettier": "^3.0.1",
-    "remark-cli": "6.0.1",
-    "remark-preset-lint-arcticicestudio": "0.1.0"
+    "eslint-plugin-prettier": "^3.0.1"
   },
   "scripts": {
-    "test": "npm run test:js && npm run test:md",
-    "test:js": "eslint 'index.js'",
-    "test:md": "remark 'README.md'"
+    "test": "npm run test:js",
+    "test:js": "eslint 'index.js'"
   },
   "homepage": "https://github.com/ozkanonur/keymachine",
   "keywords": [
