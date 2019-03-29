@@ -36,3 +36,9 @@ yarn add keymachine
 <p> With setting custom configurations: </p>
 
 <img src="https://user-images.githubusercontent.com/39852038/55249027-2ef83c80-525c-11e9-8569-732ae1aab7b7.png" />
+
+<div align=center>
+
+[MIT](LICENSE.md)
+
+</div>
