@@ -1,7 +1,7 @@
 {
   "name": "keymachine",
   "description": "A custom unique key generator built by Javascript",
-  "version": "0.0.1-testing.1",
+  "version": "0.0.1",
   "author": "Nimda - onurozkan.dev@outlook.com",
   "bugs": {
     "url": "https://github.com/ozkanonur/keymachine/issues"
