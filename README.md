@@ -39,6 +39,7 @@ yarn add keymachine
 <img src="https://user-images.githubusercontent.com/39852038/55249027-2ef83c80-525c-11e9-8569-732ae1aab7b7.png" />
 
 <div align=center>
+<img src="https://user-images.githubusercontent.com/39852038/55265797-e1df8f00-528a-11e9-8f3b-28e93e0dcca0.png" width="100" />
 
 ## LICENSE [MIT](LICENSE.md)
 
