@@ -1,3 +1,4 @@
-logs
 *.log
 node_modules
+.npmignore
+package-lock.json
