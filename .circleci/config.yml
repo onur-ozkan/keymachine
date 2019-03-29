@@ -19,4 +19,4 @@ jobs:
           command: yarn
       - run:
           name: test (yarn)
-          command: yarn run test
+          command: yarn test
