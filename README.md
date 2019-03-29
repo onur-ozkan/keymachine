@@ -8,6 +8,7 @@ A minimal plugin for Javascript that generates random keys for you
 
 <img src="https://img.shields.io/circleci/project/github/ozkanonur/keymachine/master.svg?color=00bfa5&label=.circleci&style=for-the-badge"/>
 <img src="https://img.shields.io/travis/com/ozkanonur/keymachine/master.svg?color=00bfa5&label=.travis&style=for-the-badge"/>
+<img src="https://img.shields.io/github/license/ozkanonur/keymachine.svg?color=212121&label=LICENSE&style=for-the-badge"/>
 
 </div>
 
@@ -39,6 +40,6 @@ yarn add keymachine
 
 <div align=center>
 
-[MIT](LICENSE.md)
+## LICENSE [MIT](LICENSE.md)
 
 </div>
