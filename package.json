@@ -9,12 +9,19 @@
   "devDependencies": {
     "babel-eslint": "8.2.5",
     "eslint": "4.19.1",
-    "eslint-plugin-json": "^1.4.0",
-    "eslint-plugin-prettier": "^3.0.1"
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-json": "1.4.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "2.6.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "prettier": "1.13.7"
   },
   "scripts": {
     "test": "npm run test:js",
-    "test:js": "eslint 'index.js'"
+    "test:js": "eslint index.js",
+    "lint": "eslint index.js"
   },
   "homepage": "https://github.com/ozkanonur/keymachine",
   "keywords": [

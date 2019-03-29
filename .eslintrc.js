@@ -1,12 +1,16 @@
 module.exports = {
-  extends: "arcticicestudio-base",
-  plugins: ["prettier"],
+  extends: "standard",
+  plugins: [ "prettier" ],
+  parserOptions: {
+    parser: 'babel-eslint',
+    'ecmaVersion': 6
+  },
   parser: "babel-eslint",
   env: {
     node: true,
     browser: true
   },
   rules: {
-    "prettier/prettier": "error"
+    'generator-star-spacing': 'off',
   }
 }
