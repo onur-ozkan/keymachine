@@ -5,7 +5,7 @@ const configuration = ( {
   possible: null
 } )
 
-const keygen = () => {
+const keymachine = () => {
 
   let result = ''
 
@@ -26,5 +26,5 @@ const keygen = () => {
 
 module.exports = {
   configuration,
-  keygen
+  keymachine
 }

@@ -1,10 +1,10 @@
 {
-  "name": "keygen-js",
+  "name": "keymachine",
   "description": "A custom unique key generator built by Javascript",
   "version": "0.0.1-testing.1",
   "author": "Nimda - onurozkan.dev@outlook.com",
   "bugs": {
-    "url": "https://github.com/ozkanonur/keygen-js/issues"
+    "url": "https://github.com/ozkanonur/keymachine/issues"
   },
   "devDependencies": {
     "babel-eslint": "8.2.5",
@@ -17,12 +17,13 @@
     "test:js": "eslint 'index.js'",
     "test:md": "remark 'README.md'"
   },
-  "homepage": "https://github.com/ozkanonur/keygen-js",
+  "homepage": "https://github.com/ozkanonur/keymachine",
   "keywords": [
-    "keygenerator",
-    "keygen",
     "key",
-    "unique-key",
+    "keymachine",
+    "keygen",
+    "keygenerator",
+    "uniquekey",
     "uniqueId",
     "id"
   ],
@@ -30,6 +31,6 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ozkanonur/keygen-js.git"
+    "url": "https://github.com/ozkanonur/keymachine.git"
   }
 }
