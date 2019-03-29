@@ -1,0 +1,24 @@
+{
+  "name": "keygen-js",
+  "description": "A custom unique key generator built by Javascript",
+  "version": "0.0.1-testing.1",
+  "author": "Nimda - onurozkan.dev@outlook.com",
+  "bugs": {
+    "url": "https://github.com/ozkanonur/keygen-js/issues"
+  },
+  "homepage": "https://github.com/ozkanonur/keygen-js",
+  "keywords": [
+    "keygenerator",
+    "keygen",
+    "key",
+    "unique-key",
+    "uniqueId",
+    "id"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ozkanonur/keygen-js.git"
+  }
+}
