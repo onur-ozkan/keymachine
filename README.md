@@ -28,19 +28,39 @@ Yarn:
 yarn add keymachine
 ```
 
-## Usage
+## Example Usage
 
 <p> With default configurations: </p>
 
-<img src="https://user-images.githubusercontent.com/39852038/55248853-b5f8e500-525b-11e9-9d46-51c3f018e7f9.png" />
+```js
+
+ /*
+   Default configurations comes as:
+   lenght: 7
+   possibility: 'Awxyz08EFGLmno345pqrstMDSTY12HIJKZabcNOPQRBCdef67ghijkUVWXluv9'
+ */
+    
+ const kmachine = require('keymachine');
+ let randomKey = kmachine.keymachine();
+
+```
 
 <p> With setting custom configurations: </p>
 
-<img src="https://user-images.githubusercontent.com/39852038/55249027-2ef83c80-525c-11e9-8569-732ae1aab7b7.png" />
+```js
+
+ const kmachine = require('keymachine');
+    
+ kmachine.configuration.lenght = 32;
+ kmachine.configuration.possibility = 'anythingYouWant123x*/'
+    
+ let randomKey = kmachine.keymachine();
+
+```
 
 <div align=center>
 <img src="https://user-images.githubusercontent.com/39852038/55265797-e1df8f00-528a-11e9-8f3b-28e93e0dcca0.png" width="100" />
 
-#### LICENSE [MIT](LICENSE.md)
-
+#### [The MIT LICENSE](LICENSE.md) Copyright &copy; 2019 Onur ÖZKAN
+ 
 </div>
