@@ -55,9 +55,10 @@ yarn add keymachine
  // You can make strong keys depending on the configurations you make.
  kmachine.configuration.lenght = 32;
  kmachine.configuration.possibility = 'anythingYouWant123x*/'
+ 
  // You can configurate also letter case in keys with 'mixed', 'lower' or 'upper'
  kmachine.configuration.case = 'upper'
-    
+ 
  let randomKey = kmachine.keymachine();
 
 ```
