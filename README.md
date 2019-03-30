@@ -37,7 +37,8 @@ yarn add keymachine
  /*
    Default configurations comes as:
    lenght: 7
-   possibility: 'Awxyz08EFGLmno345pqrstMDSTY12HIJKZabcNOPQRBCdef67ghijkUVWXluv9'
+   possibility: 'abcdefghijklmnopqrstuvwxyz0123456789'
+   case: 'mixed'
  */
     
  const kmachine = require('keymachine');
@@ -50,9 +51,12 @@ yarn add keymachine
 ```js
 
  const kmachine = require('keymachine');
-    
+ 
+ // You can make strong keys depending on the configurations you make.
  kmachine.configuration.lenght = 32;
  kmachine.configuration.possibility = 'anythingYouWant123x*/'
+ // You can configurate also letter case in keys with 'mixed', 'lower' or 'upper'
+ kmachine.configuration.case = 'upper'
     
  let randomKey = kmachine.keymachine();
 
