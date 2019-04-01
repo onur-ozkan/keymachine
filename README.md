@@ -3,7 +3,7 @@
 <img src="https://user-images.githubusercontent.com/39852038/55247335-649b2680-5258-11e9-81be-d05eb195295d.png" width="140" />
 
 # Keymachine
-A minimal plugin for Javascript that generates random keys for you
+A package plugin for Javascript that generates random keys for you
 <div align="center">
 
 <img src="https://img.shields.io/circleci/project/github/ozkanonur/keymachine/master.svg?color=00bfa5&label=.circleci&style=for-the-badge"/>

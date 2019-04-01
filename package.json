@@ -1,6 +1,6 @@
 {
   "name": "keymachine",
-  "description": "A minimal plugin for Javascript that generates random keys for you",
+  "description": "A package plugin for Javascript that generates random keys for you",
   "version": "0.7.0",
   "author": "Nimda - onurozkan.dev@outlook.com",
   "bugs": {
