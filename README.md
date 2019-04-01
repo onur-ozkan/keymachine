@@ -52,7 +52,7 @@ yarn add keymachine
 
  const kmachine = require('keymachine');
  
- // You can make strong keys depending on the configurations you make.
+ // You can make strong keys depending on the configurations you make
  kmachine.configuration.lenght = 32;
  kmachine.configuration.possibility = 'anythingYouWant123x*/'
  
