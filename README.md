@@ -14,6 +14,10 @@ A minimal package for Javascript that generates random keys for you
 
 </div>
 
+## Usage Fields
+
+Keymachine works very well in cases such as automatically assigned Email passwords, private invitation codes, verify codes, automatic link creation, etc.
+
 ## Installation
 
 Npm:
