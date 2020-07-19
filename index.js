@@ -1,39 +1,26 @@
-'use strict'
+export const keymachine = (configuration) => {
+	const possibility = configuration?.possibility || 'abcdefghijklmnopqrstuvwxyz0123456789'
+	const length = configuration?.length || 24
+	const letterCase = configuration?.case || 'mixed'
 
-const configuration = ({
-  lenght: null,
-  possibility: null,
-  case: 'mixed'
-})
+	let result = ''
 
-const keymachine = () => {
-  let result = ''
+	for (let x = 0; x < length; x++) {
+		if (letterCase === 'lower') {
+			result += possibility.toLowerCase().charAt(Math.floor(Math.random() * possibility.length))
+		}
 
-  if (configuration.lenght == null) {
-    configuration.lenght = 7
-  }
+		else if (letterCase === 'upper') {
+			result += possibility.toUpperCase().charAt(Math.floor(Math.random() * possibility.length))
+		}
 
-  if (configuration.possibility == null) {
-    configuration.possibility = 'abcdefghijklmnopqrstuvwxyz0123456789'
-  }
+		else {
+			let chance = Math.random() < 0.5
+			result += (chance === true) ?
+				possibility.toLowerCase().charAt(Math.floor(Math.random() * possibility.length))
+				: possibility.toUpperCase().charAt(Math.floor(Math.random() * possibility.length))
+		}
+	}
 
-  for (let x = 0; x < configuration.lenght; x++) {
-    if (configuration.case === 'mixed') {
-      let chance = Math.random() < 0.5
-      result += (chance === true) ? configuration.possibility.toLowerCase().charAt(Math.floor(Math.random() * configuration.possibility.length)) : configuration.possibility.toUpperCase().charAt(Math.floor(Math.random() * configuration.possibility.length))
-    } else if (configuration.case === 'upper') {
-      result += configuration.possibility.toUpperCase().charAt(Math.floor(Math.random() * configuration.possibility.length))
-    } else if (configuration.case === 'lower') {
-      result += configuration.possibility.toLowerCase().charAt(Math.floor(Math.random() * configuration.possibility.length))
-    } else {
-      result = 'Invalid configurations. Please check usage -> https://github.com/ozkanonur/keymachine/blob/master/README.md'
-    }
-  }
-
-  return result
-}
-
-module.exports = {
-  configuration,
-  keymachine
+	return result
 }
