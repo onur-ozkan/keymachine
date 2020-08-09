@@ -30,6 +30,11 @@ Yarn:
 yarn add keymachine
 ```
 
+Browsers:
+```sh
+<script src="https://unpkg.com/keymachine@2.1.0/index.js"></script>
+```
+
 ## Example Usage
 
 ```js
@@ -41,10 +46,8 @@ yarn add keymachine
    case: 'mixed'
  */
 
- // Calling the module
+ // Calling the module (only if installed via npm or yarn)
  import keymachine from 'keymachine';
- // For browsers paste the following
- <script src="https://unpkg.com/keymachine@2.1.0/index.js"></script>
 
  /* with defaults */
  let randomKey = keymachine();
