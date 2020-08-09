@@ -1,7 +1,7 @@
 {
   "name": "keymachine",
   "description": "Zero dependency, lightweight and simple key generator for the JS world",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "MIT",
   "author": "Nimda - onurozkan.dev@outlook.com",
   "homepage": "https://github.com/ozkanonur/keymachine",
@@ -23,9 +23,8 @@
     "keymachine",
     "keygen",
     "keygenerator",
-    "uniquekey",
-    "uniqueId",
-    "id",
-    "randomcode"
+    "randomcode",
+    "randomkey",
+    "randomvalue"
   ]
 }
