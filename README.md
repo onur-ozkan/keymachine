@@ -32,8 +32,6 @@ yarn add keymachine
 
 ## Example Usage
 
-<p> With default configurations: </p>
-
 ```js
 
  /*
