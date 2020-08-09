@@ -39,8 +39,7 @@ Browsers:
 
 ```js
 
- /*
-   Default configurations comes as:
+ /* Default configurations comes as:
    length: 24
    possibility: 'abcdefghijklmnopqrstuvwxyz0123456789'
    case: 'mixed'
