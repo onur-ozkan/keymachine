@@ -1,13 +1,23 @@
 {
   "name": "keymachine",
   "description": "Zero dependency, lightweight and simple key generator for the JS world",
-  "version": "1.1.0",
-  "type": "module",
+  "version": "2.0.0",
+  "license": "MIT",
   "author": "Nimda - onurozkan.dev@outlook.com",
+  "homepage": "https://github.com/ozkanonur/keymachine",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ozkanonur/keymachine.git"
+  },
   "bugs": {
     "url": "https://github.com/ozkanonur/keymachine/issues"
   },
-  "homepage": "https://github.com/ozkanonur/keymachine",
+  "main": "./index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "keywords": [
     "key",
     "keymachine",
@@ -17,11 +27,5 @@
     "uniqueId",
     "id",
     "randomcode"
-  ],
-  "license": "MIT",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ozkanonur/keymachine.git"
-  }
+  ]
 }
