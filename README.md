@@ -43,7 +43,10 @@ yarn add keymachine
    case: 'mixed'
  */
 
- import { keymachine } from 'keymachine';
+ // Calling the module
+ import keymachine from 'keymachine';
+ // For browsers paste the following
+ <script src="https://unpkg.com/keymachine@2.1.0/index.js"></script>
 
  /* with defaults */
  let randomKey = keymachine();
